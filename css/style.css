@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/* font-family: 'Lexend Tera', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Tera', sans-serif;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ .contenedor{
+    background-color: rgb(24, 24, 24);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto;
+    gap: 2rem;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2.2rem;
+    line-height: 3rem;
+}
+
+#siBtn{
+    padding: 1rem 2rem;
+    background-color: burlywood;
+}
+
+#noBtn{
+    padding: 1rem 2rem;
+    
+    background-color: burlywood;
+}
+
+#siBtn {
+    position: relative;
+    background-color: rgb(221, 221, 221);
+    transition: 0.2s;
+}
+
+#noBtn{
+    background-color: rgb(221, 221, 221);
+}
+
+#noBtn:hover{
+    background-color: rgba(255, 0, 0, 0.301);
+    transition: .6s;
+    
+    color: white;
+}
+
+#siBtn:hover{
+    left: 50px;
+}
+
+.bi-balloon-heart-fill{
+    color: rgba(255, 0, 0, 0.651);
+}
+
+
+
+
+/* PARTE DEL NO */
+
+.contenedorsegundo{
+    padding: 1rem 4rem;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 4rem;
+}
+
+.bi-heartbreak-fill{
+    color: rgba(255, 0, 0, 0.651);
+}
+
+.bi-emoji-frown{
+    color: rgba(255, 255, 255, 0.897);
+}
+
+h2{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.h2Masg{
+    text-align: center;
+}
+
+hr{
+    margin-top: 1.4rem;
+}
+
+.bi-caret-down-fill{
+    
+    font-size: 4.6rem;
+}
+
+.bi-caret-down-fill:hover{
+    color: rgba(255, 0, 0, 0.651);
+    transition: .6s;
+}
+
+a{
+    color: white;
+}
+
+.contenedorimagenes{
+    background-color: rgb(24, 24, 24);
+    padding: 4rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: 4rem;
+}
+
+img{
+    width: 20rem;
+    height: 26rem;
+    
+}
+
+.imgtext{
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    background-color:rgb(24, 24, 24)
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #btn1{
+    background-color: aqua;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+#btn2{
+    background-color: aqua;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+.contenedor{
+    width: 200px;
+    margin: 0px auto;
+} */
+
+
+
+/*--------------------------------------------------*/
+
+/*
+
+.move1{
+    position: absolute;
+    background-color: yellowgreen;
+    top: 30px;
+    right: 12px;
+}
+
+.move2{
+    position: absolute;
+    top: 20px;
+    left: 19px;
+}
+
+.move3{
+    position: absolute;
+    bottom: 17px;
+    right: 54px;
+}
+
+.move4{
+    position: absolute;
+    bottom: 23px;
+    left: 32px;
+} */
