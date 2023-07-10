@@ -149,9 +149,47 @@ img{
 
 @media only screen and (max-width: 1000px) {
 
+.contenedorsegundo{
+    padding: 1rem 1rem;
+    gap: 1rem;
 
+}
 
+.h1-no{
+    font-size: 1rem;
+    padding: 0;
+}
 
+/* hr{
+    display: none;
+} */
+
+.bi-emoji-frown{
+    display: none;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+.h2Masg{
+    font-size: 1rem;
+}
+
+img{
+    width: 14rem;
+    height: 20rem; 
+    /* display: none; */
+}
+
+.contenedorimagenes{
+    padding: 0;
+    /* grid-template-columns: 1fr; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
