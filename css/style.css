@@ -16,8 +16,17 @@ html{
     scroll-behavior: smooth;
 }
 
+
+.oscuro{
+    /* background-color: rgba(24, 24, 24, 0.459); */
+    background-image: url(../img/11_pattern.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
  .contenedor{
-    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.479);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -28,7 +37,7 @@ html{
 }
 
 h1{
-    color: white;
+    color: rgb(24, 24, 24);
     text-align: center;
     padding: 2rem;
     font-size: 2.2rem;
@@ -37,23 +46,26 @@ h1{
 
 #siBtn{
     padding: 1rem 2rem;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 #noBtn{
     padding: 1rem 2rem;
     
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 #siBtn {
     position: relative;
     background-color: rgb(221, 221, 221);
+    /* background-color: rgb(24, 24, 24); */
+    color: rgb(0, 0, 0);
     transition: 0.2s;
 }
 
 #noBtn{
     background-color: rgb(221, 221, 221);
+    /* background-color: rgb(24, 24, 24); */
 }
 
 #noBtn:hover{
@@ -68,7 +80,7 @@ h1{
 }
 
 .bi-balloon-heart-fill{
-    color: rgba(255, 0, 0, 0.651);
+    color: rgba(255, 0, 0, 0.815);
 }
 
 
